@@ -24,14 +24,14 @@ body {
 
 .aboutme .col{
   color: white;
-  padding-left: 300px;
+  
   font-size: 25px;
   margin-top: 100px;
   margin-bottom: 300px;
 }
 
 .aboutme .col p {
-  padding-left: 20px;
+  
   font-weight: 600;
 }
 
