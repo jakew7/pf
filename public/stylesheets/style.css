@@ -85,6 +85,7 @@ body {
 .button1 {
   background-color: #e63946;
   border: none;
+  text-align: center;
   color: white;
   padding: 15px 32px;
   text-align: center;
@@ -94,6 +95,7 @@ body {
 .button2 {
   background-color: #e63946;
   border: none;
+  text-align: center;
   color: white;
   padding: 15px 32px;
   text-align: center;
