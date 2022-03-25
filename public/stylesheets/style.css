@@ -119,7 +119,7 @@ body {
 }
 
 .arrow {
-  position: absolute;
+  position:fixed;
   text-align: center;
   top: 1700px;
   left: 1876px;
