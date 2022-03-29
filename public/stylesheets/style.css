@@ -201,9 +201,33 @@ section {
 }
 /* main content */
 
+#myVideo {
+  position:absolute;
+  right: 0;
+  bottom:0;
+  top: 90px;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  
+}
 
+@media(min-aspect-ratio: 16/9){
+  #myVideo {
+    width: 100%;
+    height: auto;
+  }
+}
 
-/* name logo pp */
+@media(max-aspect-ratio: 16/9){
+  #myVideo {
+    width: auto;
+    height: 100%;
+  }
+}
+
+/* background for profile */
 section.home {
   background-color: #e63946;
   padding: 0;
@@ -338,10 +362,7 @@ color: #3383f3;
 
 
 
-img {
-  max-width: 100%;
-  max-height: 100%;
-}
+
 
 
 
