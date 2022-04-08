@@ -6,32 +6,38 @@
         <section id="home" class="home d-flex align-items-center">
             
             <div class="container">
-            <video id="myVideo" src="images/space.mp4" muted loop autoplay></video>
+ 
+            
                 <!-- intro -->
                 <div class="intro">
                     <!-- avatar image -->
-                    <img style="border-radius:50%; width:408px" src="images/ee.jpg" alt="Avishkar Patil" class="mb-4" />
+                    <img style="height:658px" src="images/hey.png" alt="Avishkar Patil" class="mb-4" data-aos="fade-up" data-aos-duration="1200" />
 
                     <!-- info -->
-                    <h1 class="mb-2 mt-0">Jake White</h1>
-                    <span id="words">User Experience Designer</span>
+                    
+                    {{!-- <span id="words" data-aos="fade-up" data-aos-duration="1200">User Experience Designer</span> --}}
 
                     <!-- social icons -->
-                    <ul class="social-icons light list-inline mb-0 mt-4">
+                    {{!-- <ul class="social-icons light list-inline mb-0 mt-4">
 			        <li class="list-inline-item"><a target="_blank" href="mailto:jakewhite97@hotmail.com"><i class="fas fa-envelope" aria-hidden="true"></i></a></li>
 			        <li class="list-inline-item"><a target="_blank" href="https://www.linkedin.com/in/jakewhite7"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
 			        <li class="list-inline-item"><a target="_blank" href="https://www.instagram.com/jakewhite97"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
-                    </ul>
-                </div>
+                    </ul> --}}
+                </div>                   
+                <div class="wrapper">
+    <div class="typing-demo" data-aos-duration="1200">J for <span class="half_background">Jake</span>, Your Favourite 
+      
+    </div>
+</div>
             </div>
-            
+    
         </section>
         <div class="arrow bounce">
-             <a class="fa fa-arrow-down fa-2x" id="aro" style="text-decoration: none;" href="#aboutme"></a>
+             <a class="fa fa-arrow-down fa-2x" id="aro" style="text-decoration: none;" href="#projects"></a>
         </div>
         
 
-    <div class="aboutme" id="aboutme">
+    {{!-- <div class="aboutme" id="aboutme">
         <h1>ABOUT ME</h1>
         <div class="container">
         <div class="row">
@@ -56,44 +62,47 @@
             </div>
         </div>
     </div>		
-</div>
+</div> --}}
 
 
 
 
 
-    <div class="projects">
-        <h1>WORK</h1>
-        <main class="page-content">
-            <div class="card">
+    <div class="projects" data-aos="fade-up" data-aos-duration="1200" id="projects">
+        <h1>PROJECTS</h1>
+        <div class="page-content">
+            <div class="card" data-aos="fade-up" data-aos-duration="2000">
                 <div class="content">
                 <h2 class="title">Jeff's Junk</h2>
                 <p class="copy">Be junk free by renting a bin or set up a junk removal in 3 easy steps.</p>
                 <button class="btn">Coming Soon</button>
                 </div>
             </div>
-            <div class="card">
+            <div class="card"  data-aos="fade-up" data-aos-duration="1200">
                 <div class="content">
                 <h2 class="title">Shibu Casino</h2>
                 <p class="copy">A place to buy, sell, and spend your crypto currency.</p>
                 <button class="btn" onclick=" window.open('https://uxfol.io/p/cb37500f/0315650c','_blank')">View Case Study</button>
                 </div>
             </div>
-            <div class="card">
+         </div>
+
+           <div class="page-content">
+            <div class="card1"  data-aos="fade-up" data-aos-duration="2000">
                 <div class="content">
                 <h2 class="title">Mood Tracker</h2>
                 <p class="copy">Track and manage your daily mental health through this mood tracker.</p>
-                <button class="btn">Coming Soon</button>
+                <button class="btn" onclick=" window.open('https://moodstracker.herokuapp.com/','_blank')">View WebApp</button>
                 </div>
             </div>
-            <div class="card">
+            <div class="card1"  data-aos="fade-up" data-aos-duration="1200">
                 <div class="content">
                 <h2 class="title">Explore The Galaxy</h2>
                 <p class="copy">Seriously, straight up, just blast off into outer space today</p>
                 <button class="btn">Coming Soon</button>
                 </div>
             </div>
-         </main>
+         </div>
     </div>
 
 
@@ -101,10 +110,10 @@
 
 
     <div class="contactme" id="contactme">
-        <h1><span style="color: white">GET IN</span> TOUCH</h1>
+        <h1><span style="color: black">GET IN</span> TOUCH</h1>
         <p>Lets talk about how I can help design new projects in an innovative way.</p>
         <p><span style="color: #e63946">E-mail:</span> jakewhite97@hotmail.com</p>
-        <p><span style="color: white; font-size: 25px;">Connect with me:</span></p>
+        <p><span style="color: black; font-size: 25px;">Connect with me:</span></p>
         <ul class="social-icons light list-inline mb-0 mt-4">
 			        <li class="list-inline-item"><a target="_blank" href="https://www.linkedin.com/in/jakewhite7"><i class="fab fa-linkedin-in fa-3x" style="color:#e63946" aria-hidden="true"></i></a></li>
 			        <li class="list-inline-item"><a target="_blank" href="https://www.instagram.com/jakewhite97"><i class="fab fa-instagram fa-3x" style="color:#e63946" aria-hidden="true"></i></a></li>
