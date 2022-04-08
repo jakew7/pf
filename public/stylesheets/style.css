@@ -160,8 +160,8 @@ background-position: 0 0,40px 40px;
 }
 
 .typing-demo {
-  width: 26ch;
-  animation: typing 2s steps(26), blink .5s step-end infinite alternate;
+  width: 46ch;
+  animation: typing 2s steps(46), blink .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
