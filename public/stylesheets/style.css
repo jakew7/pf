@@ -4,18 +4,9 @@ body {
   font-family: "Rubik", sans-serif;
   width: 100%;
   background-color: #f1faee;
-  /* overflow-x: hidden; */
-  
+  overflow-x: hidden;
+
 }
-
-.content-3 {
-  opacity: 1;
-  /* background-image:  radial-gradient(#d3d3d3 2px, transparent 2px), radial-gradient(#d3d3d3 2px, #ffffff 2px); */
-  background-size: 80px 80px;
-  background-position: 0 0,40px 40px;
-}
-
-
 
 
 .aboutme h1{
@@ -87,7 +78,52 @@ body {
 }
 
 
+.footer p a {
+  color: black;
+}
 
+.footer p a:hover, .footer p a:focus {
+  text-decoration: none;
+}
+
+.footer-row i {
+  color: black;
+}
+
+.footer-row i:hover {
+  color: black;
+  opacity: 0.5;
+}
+.footer p {
+  font-family: 'Fakt';
+  font-weight: 100;
+  color: var(--primary-black);
+  text-align: center;
+}
+
+.footer-text {
+  font-family: 'Fakt';
+  font-weight: 100;
+  color: black;
+  text-align: center;
+}
+
+.footer-text-small {
+  font-family: 'Fakt';
+  font-weight: 100;
+  color: var(--primary-black);
+  text-align: center;
+  font-size: 12px;
+}
+
+.footer-icons p {
+  text-align: center;
+}
+
+.footer-icons i {
+  padding: 12px 12px 0px 12px;
+  color: black;
+}
 
 
 
@@ -263,11 +299,6 @@ section.home .social-icons li a:hover {
 /* end of navbar */
 
 
-
-
-
-
-
 @import url('https://fonts.googleapis.com/css?family=Cardo:400i|Rubik:400,700&display=swap');
 :root {
   --d: 700ms;
@@ -278,9 +309,8 @@ section.home .social-icons li a:hover {
 
 .page-content {
   padding: 1rem;
-  margin: 10px;
+  margin: 75px;
   font-family: var(--font-sans);
-  
 }
 
 .content {
@@ -289,7 +319,7 @@ section.home .social-icons li a:hover {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  padding: 1rem 1rem;
+  padding: 1rem;
   transition: transform var(--d) var(--e);
   margin-top: 320px;
   z-index: 1;
@@ -314,7 +344,7 @@ section.home .social-icons li a:hover {
   border-radius: 16px !important;
   overflow: hidden;
   padding: 1rem;
-  width: 900px;
+  width: 800px;
   text-align: center;
   color: whitesmoke;
   background-color: rgb(0, 0, 0);
@@ -354,12 +384,7 @@ section.home .social-icons li a:hover {
 }
 
 
-.card:nth-child(1):before {
-  background-image: url(../images/51.jpg);
-}
-.card:nth-child(2):before {
-  background-image: url(https://storage.googleapis.com/uxfolio/619d4741d62b3f0003156507/619d4855d62b3f000315650c/1AnaSwR5xKRoRY1H.jpg);
-}
+
 
 
 .card .btn {
@@ -423,13 +448,13 @@ section.home .social-icons li a:hover {
 .card:nth-child(1):before {
   background-image: url(../images/51.jpg);
 }
-.card:nth-child(2):before {
+.card:nth-child(3):before {
   background-image: url(../images/2.jpg);
 }
 .cardr:nth-child(1):before {
   background-image: url(../images/8.jpg);
 }
-.cardr:nth-child(2):before {
+.cardr:nth-child(3):before {
   background-image: url(../images/red.jpg);
 }
 
