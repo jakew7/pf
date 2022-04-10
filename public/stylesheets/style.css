@@ -209,7 +209,7 @@ section.home .intro {
   position: relative;
   z-index: 1;
 }
-section.home .intro h1 {
+section.home h1 {
   color: black;
   font-size: 26px;
 }
