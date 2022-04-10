@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap&subset=cyrillic");
 @import url('https://fonts.googleapis.com/css2?family=Qwigley&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700;900&display=swap');
+
 body {
   font-family: "Rubik", sans-serif;
   width: 100%;
@@ -186,7 +188,7 @@ body {
 .des{
   display: inline-block;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Kanit', sans-serif;
   font-size: 38px;
 }
 
