@@ -10,6 +10,7 @@ var usersRouter = require('./routes/users');
 
 var app = express();
 
+// redirect to https for ssl cert
 app.get('*',function(req,res,next){
   if(req.headers['x-forwarded-proto']!='https')
     res.redirect('https://jwhite.me'+req.url)
