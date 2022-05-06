@@ -41,7 +41,6 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-window.location.href = "http://www.jwhite.me";
-window.location.replace("http://www.jwhite.me");
+
 
 module.exports = app;
