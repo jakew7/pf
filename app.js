@@ -41,13 +41,7 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-if(process.env.NODE_ENV === 'production') {
-  app.use((req, res, next) => {
-    if (req.header('x-forwarded-proto') !== 'https')
-      res.redirect(`https://${req.header('host')}${req.url}`)
-    else
-      next()
-  })
-}
+window.location.href = "http://www.jwhite.me";
+window.location.replace("http://www.jwhite.me");
 
 module.exports = app;
