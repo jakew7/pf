@@ -367,7 +367,7 @@ video {
   --d: 700ms;
   --e: cubic-bezier(0.19, 1, 0.22, 1);
   --font-sans: 'Rubik', sans-serif;
-  --font-serif: 'Cardo', serif;
+  --font-serif: 'Rubik', serif;
 }
 
 .page-content {
@@ -396,7 +396,6 @@ video {
 .copy {
   font-family: var(--font-serif);
   font-size: 1.125rem;
-  font-style: italic;
   line-height: 1.35;
 } 
 

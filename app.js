@@ -11,12 +11,12 @@ var usersRouter = require('./routes/users');
 var app = express();
 
 // redirect to https for ssl cert
-app.get('*',function(req,res,next){
-  if(req.headers['x-forwarded-proto']!='https')
-    res.redirect('https://jwhite.me'+req.url)
-  else
-    next() /* Continue to other routes if we're not redirecting */
-})
+// app.get('*',function(req,res,next){
+//   if(req.headers['x-forwarded-proto']!='https')
+//     res.redirect('https://jwhite.me'+req.url)
+//   else
+//     next() /* Continue to other routes if we're not redirecting */
+// })
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
