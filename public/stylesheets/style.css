@@ -316,6 +316,22 @@ section.home .social-icons li a:hover {
   font-weight: 200 !important;
 }
 
+@media only screen and (max-device-width : 768px) {
+  .navbar-custom {
+    font-family: 'Kanit', sans-serif;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: rgba(255,255,255,1) !important;
+    padding-top: 20px !important;
+    font-weight: 200 !important;
+  }
+  }
+
+  @media only screen and (max-device-width : 768px) {
+    .junke {
+      padding-top: 80px;
+    }
+    }
 
 .jw {
   font-family: 'Qwigley', sans-serif;
