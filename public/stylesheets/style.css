@@ -584,3 +584,8 @@ border-radius: 23px;
   float: none;
   margin: 0 auto;
 }
+
+img.junkdesign {
+  width: 2920px !important; 
+  height: auto;
+}
